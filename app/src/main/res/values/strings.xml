@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">labTest02_IT23231078</string>
+
+    <string name="logo">logo</string>
+    <string name="image1">image</string>
+    <string name="skip">Skip For Now</string>
+    <string name="text">Find Your Perfect Stay</string>
+    <string name="tet">Smart Search and Filters</string>
+    <string name="te">Start Your Journey</string>
+
+    <string name="start">Get Started</string>
+    <string name="login">Login</string>
+
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="log">Do Not Have An Account?</string>
+    <string name="sign">Sign Up</string>
+    <string name="next">Next</string>
+
+</resources>
