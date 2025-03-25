@@ -34,8 +34,19 @@
         <activity android:name=".GetstartedActivity" />
 
         <activity android:name=".LoginActivity" />
-        
-        
+
+        <activity android:name=".SignupActivity" />
+
+        <activity android:name=".ForgotpasswordActivity" />
+
+        <activity android:name=".PaymentsuccessActivity" />
+
+        <activity android:name=".MakepaymentActivity" />
+
+        <activity android:name=".PaymentmethodActivity" />
+
+
+
 
     </application>
 

@@ -16,5 +16,29 @@
     <string name="log">Do Not Have An Account?</string>
     <string name="sign">Sign Up</string>
     <string name="next">Next</string>
+    <string name="already">Already Have An Account?</string>
+    <string name="forgot">Forgot Password</string>
+
+
+
+    <string name="mail">E-mail</string>
+    <string name="number">Phone Number</string>
+    <string name="code">Send Code</string>
+
+
+    <string name="c_password">Confirm Password</string>
+
+    <string name="payment">Payment Successfully!</string>
+
+    <string name="thank_you">Thank You For Booking</string>
+    <string name="add">Add Card</string>
+    <string name="make">Add and Make Payment</string>
+    <string name="method">Payment Methods</string>
+
+
+
+
+
+
 
 </resources>

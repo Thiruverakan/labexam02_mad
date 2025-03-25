@@ -18,5 +18,6 @@ class Onboarding1Activity : ComponentActivity() {
             finish()
         }
 
+
     }
 }
