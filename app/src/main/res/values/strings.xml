@@ -34,6 +34,11 @@
     <string name="add">Add Card</string>
     <string name="make">Add and Make Payment</string>
     <string name="method">Payment Methods</string>
+    <string name="confirm">Confirm Payment</string>
+    <string name="verakan">Thiruverakan</string>
+    <string name="com">thiruverakants@gmal.com</string>
+    <string name="house">Houses</string>
+    <string name="room">Rooms</string>
 
 
 
