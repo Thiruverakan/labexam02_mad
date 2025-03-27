@@ -2,7 +2,6 @@ package com.example.labtest02_it23231078
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import android.text.method.ArrowKeyMovementMethod
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
@@ -17,7 +16,7 @@ class Onboarding2Activity : ComponentActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.onboarding2)
 
-        val onboarding2btn = findViewById<Button>(R.id.button2)
+        val onboarding2btn = findViewById<Button>(R.id.loginbtn)
         onboarding2btn.setOnClickListener {
             val intent = Intent(this, Onboarding3Activity::class.java)
             startActivity(intent)

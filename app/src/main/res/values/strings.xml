@@ -41,6 +41,15 @@
     <string name="room">Rooms</string>
     <string name="Register">Register Now</string>
 
+    <string name="save">Save</string>
+    <string name="account">account</string>
+    <string name="prof">Profile Information</string>
+    <string name="edit">Edit Your Information Anytime</string>
+    <string name="set">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="location">Location</string>
+
+
 
 
 
