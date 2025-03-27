@@ -56,6 +56,8 @@
 
         <activity android:name=".HomeActivity" />
 
+        <activity android:name=".HouseActivity" />
+
 
 
 
