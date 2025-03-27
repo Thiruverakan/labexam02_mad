@@ -45,7 +45,6 @@
 
         <activity android:name=".PaymentmethodActivity" />
 
-
         <activity android:name=".LocationActivity" />
 
         <activity android:name=".ProfileActivity" />
@@ -57,8 +56,6 @@
         <activity android:name=".HomeActivity" />
 
         <activity android:name=".HouseActivity" />
-
-
 
 
     </application>

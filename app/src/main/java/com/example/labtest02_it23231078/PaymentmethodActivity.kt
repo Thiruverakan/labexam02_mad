@@ -4,40 +4,31 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
-import android.widget.TextView
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
 
 class PaymentmethodActivity : ComponentActivity() {
-    @SuppressLint("MissingInflatedId", "WrongViewCast")
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.paymentmethod)
 
-        val paymentarrow = findViewById<ImageView>(R.id.paymentarrow)
-        paymentarrow.setOnClickListener {
-            val intent = Intent(this, HouseActivity::class.java)
-            startActivity(intent)
-            finish()
+        // Back arrow navigation
+        val paymentarrow = findViewById<ImageView>(R.id.paymentarrow).apply {
+            setOnClickListener {
+                startActivity(Intent(this@PaymentmethodActivity, HouseActivity::class.java))
+                finish()
+            }
         }
-
-        val select = findViewById<ImageView>(R.id.select)
-        select.setOnClickListener {
-            val intent = Intent(this, MakepaymentActivity::class.java)
-            startActivity(intent)
-            finish()
+//
+        // Payment method selection
+        val select = findViewById<ImageView>(R.id.select).apply {
+            setOnClickListener {
+                startActivity(Intent(this@PaymentmethodActivity, MakepaymentActivity::class.java))
+                finish()
+            }
         }
-
-        val cnfpay = findViewById<ImageView>(R.id.cnfpay)
-        cnfpay.setOnClickListener {
-            val intent = Intent(this, MakepaymentActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
-
-
-
-
+//
     }
 }

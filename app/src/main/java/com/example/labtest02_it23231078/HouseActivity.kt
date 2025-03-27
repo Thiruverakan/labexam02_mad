@@ -15,6 +15,7 @@ class HouseActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.house)
 
+        // Back arrow navigation
         val housearrow = findViewById<ImageView>(R.id.housearrow)
         housearrow.setOnClickListener {
             val intent = Intent(this, HomeActivity::class.java)
@@ -22,6 +23,7 @@ class HouseActivity : ComponentActivity() {
             finish()
         }
 
+        // First register button
         val reg1 = findViewById<Button>(R.id.reg1)
         reg1.setOnClickListener {
             val intent = Intent(this, PaymentmethodActivity::class.java)
@@ -29,7 +31,28 @@ class HouseActivity : ComponentActivity() {
             finish()
         }
 
+        // Second register button (reg2)
+        val reg2 = findViewById<Button>(R.id.reg2)
+        reg2.setOnClickListener {
+            val intent = Intent(this, PaymentmethodActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
 
+        // Third button (button4)
+        val button4 = findViewById<Button>(R.id.reg3)
+        button4.setOnClickListener {
+            val intent = Intent(this, PaymentmethodActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
 
+        // Fourth button (button5)
+        val button5 = findViewById<Button>(R.id.reg4)
+        button5.setOnClickListener {
+            val intent = Intent(this, PaymentmethodActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }
