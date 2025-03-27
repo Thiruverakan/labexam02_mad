@@ -47,7 +47,7 @@
         app:layout_constraintVertical_bias="0.738" />
 
     <ImageView
-        android:id="@+id/arrow1"
+        android:id="@+id/mparrow"
         android:layout_width="40dp"
         android:layout_height="50dp"
         android:contentDescription="@string/image1"
@@ -72,5 +72,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.942" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/page_2"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

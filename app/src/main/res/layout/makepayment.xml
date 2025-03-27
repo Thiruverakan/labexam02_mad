@@ -7,7 +7,7 @@
     android:background="@color/w_gold">
 
     <ImageView
-        android:id="@+id/arrow1"
+        android:id="@+id/mparrow"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:contentDescription="@string/image1"
@@ -47,7 +47,7 @@
         app:layout_constraintVertical_bias="0.34" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/addpay"
         android:layout_width="237dp"
         android:layout_height="76dp"
         android:background="@drawable/oval_button"

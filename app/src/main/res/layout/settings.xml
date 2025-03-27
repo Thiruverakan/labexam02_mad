@@ -7,7 +7,7 @@
     android:background="@color/w_gold">
 
     <ImageView
-        android:id="@+id/imageView24"
+        android:id="@+id/setarrow"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:contentDescription="@string/image1"
@@ -73,7 +73,7 @@
         tools:textColor="@color/black" />
 
     <ImageView
-        android:id="@+id/imageView28"
+        android:id="@+id/logout"
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:contentDescription="@string/image1"

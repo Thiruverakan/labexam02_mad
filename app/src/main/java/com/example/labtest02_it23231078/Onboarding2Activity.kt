@@ -23,7 +23,7 @@ class Onboarding2Activity : ComponentActivity() {
             finish()
         }
 
-        val arrow1 = findViewById<ImageView>(R.id.arrow1)
+        val arrow1 = findViewById<ImageView>(R.id.mparrow)
         arrow1.setOnClickListener {
             val intent = Intent(this, Onboarding1Activity::class.java)
             startActivity(intent)

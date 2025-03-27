@@ -7,7 +7,7 @@
     android:background="@color/w_gold">
 
     <ImageView
-        android:id="@+id/imageView23"
+        android:id="@+id/accountarrow"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:contentDescription="@string/image1"
@@ -46,7 +46,7 @@
         app:layout_constraintVertical_bias="0.798" />
 
     <ImageView
-        android:id="@+id/imageView25"
+        android:id="@+id/deleteaccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/image1"
@@ -59,7 +59,7 @@
         app:layout_constraintVertical_bias="0.719" />
 
     <ImageView
-        android:id="@+id/imageView26"
+        android:id="@+id/prf1"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:contentDescription="@string/image1"
@@ -72,7 +72,7 @@
         app:layout_constraintVertical_bias="0.182" />
 
     <TextView
-        android:id="@+id/textView40"
+        android:id="@+id/prf2"
         android:layout_width="140dp"
         android:layout_height="25dp"
         android:text="@string/prof"
@@ -86,7 +86,7 @@
         app:layout_constraintVertical_bias="0.178" />
 
     <TextView
-        android:id="@+id/textView41"
+        android:id="@+id/prf3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/edit"
