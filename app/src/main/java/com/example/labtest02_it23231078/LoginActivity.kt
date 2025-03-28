@@ -35,13 +35,6 @@ class LoginActivity : ComponentActivity() {
             finish()
         }
 
-
-
-
-
-
     }
-
-
 
 }
