@@ -25,7 +25,7 @@ class AccountActivity : ComponentActivity() {
 
         val prf1 = findViewById<ImageView>(R.id.prf1)
         prf1.setOnClickListener {
-            val intent = Intent(this, HomeActivity::class.java)
+            val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
             finish()
         }

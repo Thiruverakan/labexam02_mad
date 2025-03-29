@@ -3,6 +3,7 @@ package com.example.labtest02_it23231078
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.EditText
 import android.widget.TextView
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
@@ -35,6 +36,9 @@ class LoginActivity : ComponentActivity() {
             finish()
         }
 
+
+
     }
 
 }
+
