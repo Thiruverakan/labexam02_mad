@@ -33,7 +33,7 @@
 
         <activity android:name=".GetstartedActivity" />
 
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".LoginActivity"/>
 
         <activity android:name=".SignupActivity" />
 
