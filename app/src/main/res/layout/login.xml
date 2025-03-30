@@ -74,7 +74,7 @@
         app:layout_constraintVertical_bias="0.41" />
 
     <TextView
-        android:id="@+id/enterusername"
+        android:id="@+id/emailEditText"
         android:layout_width="296dp"
         android:layout_height="52dp"
         android:background="@android:drawable/edit_text"
@@ -86,7 +86,7 @@
         app:layout_constraintVertical_bias="0.471" />
 
     <TextView
-        android:id="@+id/enterpassword"
+        android:id="@+id/passwordEditText"
         android:layout_width="296dp"
         android:layout_height="52dp"
         android:background="@android:drawable/edit_text"
